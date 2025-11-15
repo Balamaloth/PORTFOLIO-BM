@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 220 15% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 10%;
+
+    --primary: 193 95% 55%;
+    --primary-foreground: 220 15% 10%;
+
+    --secondary: 45 100% 60%;
+    --secondary-foreground: 220 15% 10%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 220 15% 40%;
+
+    --accent: 280 90% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 193 95% 55%;
+
+    --radius: 1rem;
+
+    /* Cyberpunk Neon */
+    --neon-cyan: 193 95% 55%;
+    --neon-magenta: 320 90% 60%;
+    --neon-purple: 280 90% 65%;
+    
+    /* Gold Premium */
+    --gold: 45 100% 60%;
+    --gold-dark: 38 90% 50%;
+    
+    /* Glass Effects */
+    --glass-bg: 210 20% 98%;
+    --glass-border: 220 15% 88%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(193 95% 55%), hsl(280 90% 65%));
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 60%), hsl(38 90% 50%));
+    --gradient-dark: linear-gradient(180deg, hsl(210 20% 98%), hsl(220 15% 94%));
+    
+    /* Shadows */
+    --shadow-neon: 0 0 20px hsl(193 95% 55% / 0.3);
+    --shadow-gold: 0 0 30px hsl(45 100% 60% / 0.2);
+    --shadow-glass: 0 8px 32px hsl(220 15% 10% / 0.1);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 20% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 20% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 193 95% 55%;
+    --primary-foreground: 220 25% 8%;
+
+    --secondary: 45 100% 60%;
+    --secondary-foreground: 220 25% 8%;
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 280 90% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 193 95% 55%;
+    
+    /* Cyberpunk Neon Dark */
+    --neon-cyan: 193 95% 55%;
+    --neon-magenta: 320 90% 60%;
+    --neon-purple: 280 90% 65%;
+    
+    /* Gold Premium Dark */
+    --gold: 45 100% 60%;
+    --gold-dark: 38 90% 50%;
+    
+    /* Glass Effects Dark */
+    --glass-bg: 220 20% 12%;
+    --glass-border: 220 20% 25%;
+    
+    /* Gradients Dark */
+    --gradient-primary: linear-gradient(135deg, hsl(193 95% 55%), hsl(280 90% 65%));
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 60%), hsl(38 90% 50%));
+    --gradient-dark: linear-gradient(180deg, hsl(220 25% 8%), hsl(220 20% 12%));
+    
+    /* Shadows Dark */
+    --shadow-neon: 0 0 30px hsl(193 95% 55% / 0.5);
+    --shadow-gold: 0 0 40px hsl(45 100% 60% / 0.4);
+    --shadow-glass: 0 8px 32px hsl(0 0% 0% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply backdrop-blur-xl bg-card/40 border border-glass-border;
+  }
+  
+  .neon-glow {
+    box-shadow: var(--shadow-neon);
+  }
+  
+  .gold-glow {
+    box-shadow: var(--shadow-gold);
+  }
+  
+  .text-gradient-primary {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
