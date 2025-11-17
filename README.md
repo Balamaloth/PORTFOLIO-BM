@@ -1,8 +1,6 @@
 # 🌐 **Balakrishna Maloth – Full Stack Java Developer Portfolio**
 
-![Portfolio Banner](<img width="1755" height="6403" alt="image" src="https://github.com/user-attachments/assets/192c6dc0-a68c-4ec6-8083-a1465bc7414c" />
-)
-
+![Portfolio link](https://portfolio-lt4huvh1u-balakrishna-maloths-projects.vercel.app)
 > A modern, visually appealing portfolio showcasing my skills, projects, education, and professional journey as a **Full Stack Java Developer**.
 > Built with passion, precision, and dedication.
 
