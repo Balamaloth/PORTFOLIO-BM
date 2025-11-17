@@ -49,7 +49,7 @@ This portfolio highlights my technical expertise with beautifully designed skill
 * Tailwind CSS
 * Modern UI/UX practices
 
-### ⚙ DevOps & Tools
+### ⚙ Tools
 * Git & GitHub
 * Docker
 * JUnit Testing
