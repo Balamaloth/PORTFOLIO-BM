@@ -1,4 +1,4 @@
- # 🌐 **Balakrishna Maloth – Full Stack Java Developer Portfolio**
+  # 🌐 **Balakrishna Maloth – Full Stack Java Developer Portfolio**
 
 ![Portfolio link] https://portfolio-bm-eight.vercel.app/
 > A modern, visually appealing portfolio showcasing my skills, projects, education, and professional journey as a **Full Stack Java Developer**.
