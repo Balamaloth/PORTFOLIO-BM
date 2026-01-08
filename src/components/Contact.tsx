@@ -142,7 +142,7 @@ const Contact = () => {
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground neon-glow text-lg px-8 py-6"
               >
-                <a href="mailto:balasainik3@gmail.com">Send Me an Email</a>
+                <a href="mailto:balasainik3@gmail.com">Send Me a Email</a>
               </Button>
             </motion.div>
           </div>
@@ -156,7 +156,7 @@ const Contact = () => {
         className="text-center mt-20 pb-8"
       >
         <p className="text-muted-foreground">
-          © 2024 Balakrishna Maloth. Built with{" "}
+          © 2025 Balakrishna Maloth. Built with{" "}
           <span className="text-gradient-primary">passion</span> and{" "}
           <span className="text-gradient-gold">dedication</span>.
         </p>
