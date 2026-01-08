@@ -11,8 +11,8 @@ const Skills = () => {
   const skills = [
     {
       icon: Code,
-      name: "Java & Spring Boot",
-      description: "Building robust backend services with Spring ecosystem",
+      name: "Python & Django",
+      description: "Building robust backend services with Django ecosystem",
       color: "primary",
     },
     {
