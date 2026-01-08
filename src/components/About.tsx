@@ -47,7 +47,7 @@ const About = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
-              I'm a passionate Full Stack Java Developer with a strong foundation in building
+              I'm a passionate Full Stack Python Developer with a strong foundation in building
               modern, scalable web applications. My journey in software development is driven
               by curiosity and a constant desire to learn and implement cutting-edge technologies.
             </motion.p>
@@ -58,7 +58,7 @@ const About = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.4, duration: 0.6 }}
             >
-              With expertise in Java, Spring Boot, and React, I specialize in creating robust
+              With expertise in Python, Spring Boot, and React, I specialize in creating robust
               backend services and intuitive frontend interfaces. I believe in writing clean,
               maintainable code and following best practices to deliver high-quality solutions.
             </motion.p>
