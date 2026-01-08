@@ -87,7 +87,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              Full Stack Java Developer
+              Full Stack Python Developer
             </motion.h2>
 
             <motion.p
@@ -96,7 +96,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.8 }}
             >
-              Building modern, scalable web applications with Java, Spring Boot, and React.
+              Building modern, scalable web applications with Python, Django, and React.
               Passionate about clean code and innovative solutions.
             </motion.p>
 
