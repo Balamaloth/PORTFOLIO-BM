@@ -13,8 +13,8 @@ const Projects = () => {
     {
       title: "REST API Service",
       description:
-        "A comprehensive RESTful API built with Spring Boot, featuring JWT authentication, role-based access control, and MySQL database integration. Includes complete CRUD operations and secure endpoints.",
-      technologies: ["Spring Boot", "JWT", "MySQL", "REST API"],
+        "A comprehensive RESTful API built with Django, featuring JWT authentication, role-based access control, and MySQL database integration. Includes complete CRUD operations and secure endpoints.",
+      technologies: ["Django", "JWT", "MySQL", "REST API"],
       gradient: "from-primary to-accent",
     },
     {
@@ -28,7 +28,7 @@ const Projects = () => {
       title: "Fullstack Todo App",
       description:
         "Complete task management application with React frontend and Spring Boot backend. Features user authentication, task categorization, priority levels, and real-time updates.",
-      technologies: ["React", "Spring Boot", "Auth", "PostgreSQL"],
+      technologies: ["React", "Django", "Auth", "PostgreSQL"],
       gradient: "from-accent to-primary",
     },
   ];
