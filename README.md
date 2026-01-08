@@ -1,7 +1,7 @@
-  # 🌐 **Balakrishna Maloth – Full Stack Java Developer Portfolio**
+  # 🌐 **Balakrishna Maloth – Full Stack Python Developer Portfolio**
 
 ![Portfolio link] https://portfolio-bm-eight.vercel.app/
-> A modern, visually appealing portfolio showcasing my skills, projects, education, and professional journey as a **Full Stack Java Developer**.
+> A modern, visually appealing portfolio showcasing my skills, projects, education, and professional journey as a **Full Stack Python Developer**.
 > Built with passion, precision, and dedication.
 
 ---
@@ -17,7 +17,7 @@ The design focuses on **clean typography, neon-accent lighting, smooth UI/UX, an
 
 I’m **Balakrishna Maloth**, a passionate **Full Stack Java Developer** specializing in creating modern, scalable, and efficient web applications using:
 
-* **Java**
+* **Python**
 * **Spring Boot**
 * **React**
 * **MySQL / PostgreSQL**
@@ -40,7 +40,7 @@ I focus on building clean code architecture, reusable components, and reliable b
 This portfolio highlights my technical expertise with beautifully designed skill cards:
 
 ### 💡 Backend & Programming
-* Java & Spring Boot
+* Python & Spring Boot
 * REST API Development
 * SQL Databases (MySQL, PostgreSQL)
 
