@@ -42,11 +42,11 @@ const Education = () => {
                   Sri Indu College of Engineering & Technology
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  Computer Science and Engineering
+                  Computer Science and Informaction Technology
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <span className="px-4 py-2 rounded-full glass-card border border-gold/30 text-sm">
-                    Java Programming
+                    Python Programming
                   </span>
                   <span className="px-4 py-2 rounded-full glass-card border border-gold/30 text-sm">
                     Data Structures
